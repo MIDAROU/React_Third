@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    background-color: rgb(34, 34, 58);
+}
+img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+#root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.App{
+    border-radius: 20%;
+    border: 2px #85e4e6 solid;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(176,254,255,1) 0%, rgba(253,187,45,1) 100%); 
+}
